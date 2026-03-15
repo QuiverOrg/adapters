@@ -1,0 +1,16 @@
+include: package:lints/recommended.yaml
+
+linter:
+  rules:
+    - prefer_expression_function_bodies
+    - prefer_single_quotes
+    - prefer_const_constructors
+    - prefer_const_declarations
+    - prefer_final_locals
+    - prefer_final_in_for_each
+    - unnecessary_lambdas
+    - unnecessary_parenthesis
+    - unnecessary_string_interpolations
+    - avoid_redundant_argument_values
+    - use_if_null_to_convert_nulls_to_bools
+    - use_string_in_part_of_directives

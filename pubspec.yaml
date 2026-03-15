@@ -1,0 +1,16 @@
+name: quiver_adapter
+description: Framework adapters for the Quiver deployment platform. Detects Dart frameworks and builds projects into the Quiver Build Output Spec.
+version: 0.1.0
+homepage: https://github.com/quiverorg/adapters
+repository: https://github.com/quiverorg/adapters
+
+environment:
+  sdk: ^3.8.0
+
+dependencies:
+  path: ^1.9.0
+  yaml: ^3.1.0
+  meta: ^1.12.0
+
+dev_dependencies:
+  lints: ^5.1.0
